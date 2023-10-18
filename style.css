@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin:0;
+  background-color: #0028FD;
+  color:white;
+}
+body.bugpage {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#45baff+0,0028fd+100 */
+background: linear-gradient(to bottom, rgba(0,40,253,1)  0%,rgba(69,186,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+header {
+  background-color: white;
+  text-align: center;
+}
+img {
+  width:100%;
+}
+
+nav {
+  width:60%;
+  margin:auto;
+  padding-top:30px;
+  padding-bottom:40px;
+}
+
+nav ul { 
+  list-style:none;
+  display:flex;
+  justify-content: space-between;
+  align-items:end;
+  margin:0;
+}
+nav li {
+  padding:10px 0;
+
+}
+nav li a {
+  background-color:#EE4E45;
+  border-radius:20px;
+  padding:6px 16px;
+  color: #fff;
+  text-decoration:none;
+}
+nav li a:hover {
+  color:rgb(238, 207, 9);
+}
+main {
+  height:120vh;
+}
